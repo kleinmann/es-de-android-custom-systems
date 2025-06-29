@@ -65,7 +65,7 @@
         <!-- Nintendo GameCube and Wii emulator Dolphin -->
         <rule type="androidpackage">
             <entry>org.dolphinemu.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
-			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+            <entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
 	<emulator name="LEMON">
@@ -124,13 +124,13 @@
             <entry>org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator</entry>
         </rule>
     </emulator>
-	<emulator name="X360MOBILE">
+    <emulator name="X360MOBILE">
         <!-- Microsoft Xbox 360 emulator X360 Mobile -->
         <rule type="androidpackage">
             <entry>emu.x360.mobile/emu.x360.mobile.X360MobileGameLaunchActivity</entry>
         </rule>
     </emulator>
-	<emulator name="XBPLAY">
+    <emulator name="XBPLAY">
         <!-- Xbox Game Streaming XBPlay -->
         <rule type="androidpackage">
             <entry>com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity</entry>
