@@ -7,18 +7,18 @@
             <entry>xyz.aethersx2.custom/xyz.aethersx2.android.EmulationActivity</entry>
         </rule>
     </emulator>
-	<emulator name="AX360E">
+    <emulator name="AX360E">
         <!-- Microsoft Xbox 360 emulator aX360e -->
         <rule type="androidpackage">
             <entry>aenu.ax360e/aenu.ax360e.EmulatorActivity</entry>
             <entry>aenu.ax360e.free/aenu.ax360e.EmulatorActivity</entry>
         </rule>
     </emulator>
-	<emulator name="AZAHAR">
+    <emulator name="AZAHAR">
         <!-- Nintendo 3DS emulator Azahar -->
         <rule type="androidpackage">
             <entry>io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity</entry>
-			<entry>org.azahar_emu.azahar/org.citra.citra_emu.activities.EmulationActivity</entry>
+            <entry>org.azahar_emu.azahar/org.citra.citra_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
     <emulator name="BENJI-SC">
@@ -70,14 +70,14 @@
         <!-- Nintendo GameCube and Wii emulator Dolphin -->
         <rule type="androidpackage">
             <entry>org.dolphinemu.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
-			<entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+            <entry>org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
         </rule>
     </emulator>
     <emulator name="EDEN">
         <!-- Nintendo Switch emulator Eden -->
         <rule type="androidpackage">
             <entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+            <entry>dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
             <entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
@@ -85,8 +85,8 @@
         <!-- Nintendo Switch emulator Eden -->
         <rule type="androidpackage">
             <entry>dev.eden.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>dev.legacy.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
-			<entry>com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+            <entry>dev.legacy.eden_emulator.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
+            <entry>com.miHoYo.Yuanshen.nightly/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
     <emulator name="MELONDS-FORK">
@@ -101,10 +101,10 @@
             <entry>com.andromeda.androbench2/org.suyu.suyu_emu.activities.EmulationActivity</entry>
         </rule>
     </emulator>
-	<emulator name="PICO8-FRONTEND">
+    <emulator name="PICO8-FRONTEND">
         <!-- PICO-8 Fantasy Console game engine Infinity -->
         <rule type="androidpackage">
-			<entry>io.wip.pico8/com.godot.game.GodotAppLauncher</entry>
+            <entry>io.wip.pico8/com.godot.game.GodotAppLauncher</entry>
         </rule>
     </emulator>
     <emulator name="SUDACHI">
@@ -151,12 +151,18 @@
             <entry>org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator</entry>
         </rule>
     </emulator>
-	<emulator name="WINLATOR-LUDASHI">
+    <emulator name="WINLATOR-BIONIC">
+        <!-- Microsoft Windows emulator Winlator Cmod Bionic -->
+        <rule type="androidpackage">
+            <entry>com.winlator.cmod/com.winlator.cmod.XServerDisplayActivity</entry>
+        </rule>
+    </emulator>
+    <emulator name="WINLATOR-LUDASHI">
         <!-- Microsoft Windows emulator Winlator Cmod -->
         <rule type="androidpackage">
             <entry>com.winlator.vanilla/com.winlator.cmod.XServerDisplayActivity</entry>
-			<entry>com.ludashi.benchmark/com.winlator.cmod.XServerDisplayActivity</entry>
-			<entry>com.miHoYo.GenshinImpact/com.winlator.cmod.XServerDisplayActivity</entry>
+            <entry>com.ludashi.benchmark/com.winlator.cmod.XServerDisplayActivity</entry>
+            <entry>com.miHoYo.GenshinImpact/com.winlator.cmod.XServerDisplayActivity</entry>
         </rule>
     </emulator>
     <emulator name="XBPLAY">
