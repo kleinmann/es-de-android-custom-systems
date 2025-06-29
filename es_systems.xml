@@ -142,6 +142,20 @@
         <theme>gc</theme>
     </system>
     <system>
+        <name>gch</name>
+        <fullname>Nintendo GameCube Hacks</fullname>
+        <path>%ROMPATH%/gch</path>
+        <extension>.ciso .CISO .dff .DFF .dol .DOL .elf .ELF .gcm .GCM .gcz .GCZ .iso .ISO .json .JSON .m3u .M3U .rvz .RVZ .tgc .TGC .wad .WAD .wbfs .WBFS .wia .WIA .7z .7Z .zip .ZIP</extension>
+        <command label="Dolphin">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/dolphin_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Dolphin (Standalone)">%EMULATOR_DOLPHIN% %ACTION%=android.intent.action.MAIN %CATEGORY%=android.intent.category.LEANBACK_LAUNCHER %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <command label="Dolphin MMJR (Standalone)">%EMULATOR_DOLPHIN-MMJR% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <command label="Dolphin MMJR2 (Standalone)">%EMULATOR_DOLPHIN-MMJR2% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <command label="Dolphin Enhanced (Standalone)">%EMULATOR_DOLPHIN-ENHANCED% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <command label="Dolphin Primehack (Standalone)">%EMULATOR_DOLPHIN-PRIMEHACK% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <platform>gc</platform>
+        <theme>gch</theme>
+    </system>
+    <system>
         <name>genh</name>
         <fullname>Sega Genesis Hacks</fullname>
         <path>%ROMPATH%/genh</path>
@@ -186,6 +200,38 @@
         <theme>n3ds</theme>
     </system>
     <system>
+        <name>n3dsh</name>
+        <fullname>Nintendo 3DS Hacks</fullname>
+        <path>%ROMPATH%/n3dsh</path>
+        <extension>.3ds .3DS .3dsx .3DSX .app .APP .axf .AXF .cci .CCI .cxi .CXI .elf .ELF .7z .7Z .zip .ZIP</extension>
+        <command label="Azahar (Standalone)">%EMULATOR_AZAHAR% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="AzaharPlus (Standalone)">%EMULATOR_AZAHARPLUS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Citra">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/citra_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Citra (Standalone)">%EMULATOR_CITRA% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Citra Canary (Standalone)">%EMULATOR_CITRA-CANARY% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Citra MMJ (Standalone)">%EMULATOR_CITRA-MMJ% %EXTRA_GamePath%=%ROM%</command>
+        <command label="Citra Enhanced (Standalone)">%EMULATOR_CITRA-ENHANCED% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Borked3DS (Standalone)">%EMULATOR_BORKED3DS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Cytrus (Standalone)">%EMULATOR_CYTRUS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Lime3DS (Standalone)">%EMULATOR_LIME3DS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Mandarine (Standalone)">%EMULATOR_MANDARINE% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="Panda3DS (Standalone)">%EMULATOR_PANDA3DS% %DATA%=%ROMPROVIDER%</command>
+        <platform>n3ds</platform>
+        <theme>n3dsh</theme>
+    </system>
+    <system>
+        <name>n64h</name>
+        <fullname>Nintendo 64 Hacks</fullname>
+        <path>%ROMPATH%/n64h</path>
+        <extension>.bin .BIN .d64 .D64 .n64 .N64 .ndd .NDD .u1 .U1 .v64 .V64 .z64 .Z64 .7z .7Z .zip .ZIP</extension>
+        <command label="Mupen64Plus-Next">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mupen64plus_next_gles3_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="M64Plus FZ (Standalone)">%EMULATOR_M64PLUS-FZ% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="Mupen64Plus AE (Standalone)">%EMULATOR_MUPEN64PLUS-AE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="ParaLLEl N64">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/parallel_n64_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <platform>n64</platform>
+        <theme>n64h</theme>
+    </system>
+    <system>
         <name>nds</name>
         <fullname>Nintendo DS</fullname>
         <path>%ROMPATH%/nds</path>
@@ -203,6 +249,25 @@
         <command label="SkyEmu (Standalone)">%EMULATOR_SKYEMU% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
         <platform>nds</platform>
         <theme>nds</theme>
+    </system>
+    <system>
+        <name>ndsh</name>
+        <fullname>Nintendo DS Hacks</fullname>
+        <path>%ROMPATH%/ndsh</path>
+        <extension>.app .APP .bin .BIN .nds .NDS .7z .7Z .zip .ZIP</extension>
+        <command label="melonDS DS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/melondsds_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="melonDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/melonds_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="melonDS (Standalone)">%EMULATOR_MELONDS% %ACTION%=me.magnum.melonds.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
+        <command label="melonDS Nightly (Standalone)">%EMULATOR_MELONDS-NIGHTLY% %ACTION%=me.magnum.melonds.nightly.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
+        <command label="melonDS Fork (Standalone)">%EMULATOR_MELONDS-FORK% %ACTION%=me.magnum.melonds.dev.LAUNCH_ROM %EXTRA_uri%=%ROMSAF%</command>
+        <command label="DeSmuME">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/desmume_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="DeSmuME 2015">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/desmume2015_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="NooDS">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/noods_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="NooDS (Standalone)">%EMULATOR_NOODS% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_LaunchPath%=%ROM%</command>
+        <command label="DraStic (Standalone)">%EMULATOR_DRASTIC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %DATA%=%ROMSAF%</command>
+        <command label="SkyEmu (Standalone)">%EMULATOR_SKYEMU% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
+        <platform>nds</platform>
+        <theme>ndsh</theme>
     </system>
     <system>
         <name>nesh</name>
@@ -226,10 +291,31 @@
         <extension>.bin .BIN .chd .CHD .ciso .CISO .cso .CSO .dump .DUMP .elf .ELF .gz .GZ .m3u .M3U .mdf .MDF .img .IMG .iso .ISO .isz .ISZ .ngr .NRG</extension>
         <command label="AetherSX2 (Standalone)">%EMULATOR_AETHERSX2% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
         <command label="AetherSX2-Turnip (Standalone)">%EMULATOR_AETHERSX2-TURNIP% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
-		<command label="ARMSX2 (Standalone)">%EMULATOR_ARMSX2% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <command label="ARMSX2 (Standalone)">%EMULATOR_ARMSX2% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
         <command label="Play! (Standalone)">%EMULATOR_PLAY!% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
         <platform>ps2</platform>
         <theme>ps2</theme>
+    </system>
+    <system>
+        <name>ps2h</name>
+        <fullname>Sony PlayStation 2 Hacks</fullname>
+        <path>%ROMPATH%/ps2h</path>
+        <extension>.bin .BIN .chd .CHD .ciso .CISO .cso .CSO .dump .DUMP .elf .ELF .gz .GZ .m3u .M3U .mdf .MDF .img .IMG .iso .ISO .isz .ISZ .ngr .NRG</extension>
+        <command label="AetherSX2 (Standalone)">%EMULATOR_AETHERSX2% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
+        <command label="AetherSX2-Turnip (Standalone)">%EMULATOR_AETHERSX2-TURNIP% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %ACTION%=android.intent.action.MAIN %EXTRA_bootPath%=%ROMSAF%</command>
+        <command label="Play! (Standalone)">%EMULATOR_PLAY!% %ACTION%=android.intent.action.VIEW %DATA%=%ROMSAF%</command>
+        <platform>ps2</platform>
+        <theme>ps2h</theme>
+    </system>
+    <system>
+        <name>psph</name>
+        <fullname>Sony PlayStation Portable Hacks</fullname>
+        <path>%ROMPATH%/psph</path>
+        <extension>.chd .CHD .cso .CSO .elf .ELF .iso .ISO .pbp .PBP .prx .PRX .7z .7Z .zip .ZIP</extension>
+        <command label="PPSSPP">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/ppsspp_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="PPSSPP (Standalone)">%EMULATOR_PPSSPP% %ACTION%=android.intent.action.VIEW %CATEGORY%=android.intent.category.DEFAULT %DATA%=%ROMSAF%</command>
+        <platform>psp</platform>
+        <theme>psph</theme>
     </system>
     <system>
         <name>psvita</name>
@@ -240,6 +326,22 @@
         <command label="Vita3KZX (Standalone)">%EMULATOR_VITA3KZX% %EXTRAARRAY_AppStartParameters%=-r,%INJECT%=%BASENAME%.psvita</command>
         <platform>psvita</platform>
         <theme>psvita</theme>
+    </system>
+    <system>
+        <name>psxh</name>
+        <fullname>Sony PlayStation Hacks</fullname>
+        <path>%ROMPATH%\psxh</path>
+        <extension>.bin .BIN .cbn .CBN .ccd .CCD .chd .CHD .cue .CUE .ecm .ECM .exe .EXE .img .IMG .iso .ISO .m3u .M3U .mdf .MDF .mds .MDS .minipsf .MINIPSF .pbp .PBP .psexe .PSEXE .psf .PSF .toc .TOC .z .Z .znx .ZNX .7z .7Z .zip .ZIP</extension>
+        <command label="Beetle PSX">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_psx_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Beetle PSX HW">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/mednafen_psx_hw_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="PCSX ReARMed">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/pcsx_rearmed_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="SwanStation">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/swanstation_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="DuckStation (Standalone)">%EMULATOR_DUCKSTATION% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRABOOL_resumeState%=false %EXTRA_bootPath%=%ROMSAF%</command>
+        <command label="ePSXe (Standalone)">%EMULATOR_EPSXE% %ACTION%=android.intent.action.MAIN %EXTRA_com.epsxe.ePSXe.isoName%=%ROM%</command>
+        <command label="FPseNG (Standalone)">%EMULATOR_FPSE-NG% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
+        <command label="FPse (Standalone)">%EMULATOR_FPSE% %ACTION%=android.intent.action.VIEW %DATA%=%ROMPROVIDER%</command>
+        <platform>psx</platform>
+        <theme>psxh</theme>
     </system>
     <system>
         <name>snesh</name>
@@ -314,6 +416,20 @@
         <theme>wii</theme>
     </system>
     <system>
+        <name>wiih</name>
+        <fullname>Nintendo Wii Hacks</fullname>
+        <path>%ROMPATH%/wiih</path>
+        <extension>.ciso .CISO .dff .DFF .dol .DOL .elf .ELF .gcm .GCM .gcz .GCZ .iso .ISO .json .JSON .m3u .M3U .rvz .RVZ .tgc .TGC .wad .WAD .wbfs .WBFS .wia .WIA .7z .7Z .zip .ZIP</extension>
+        <command label="Dolphin">%EMULATOR_RETROARCH% %EXTRA_CONFIGFILE%=/storage/emulated/0/Android/data/%ANDROIDPACKAGE%/files/retroarch.cfg %EXTRA_LIBRETRO%=/data/data/%ANDROIDPACKAGE%/cores/dolphin_libretro_android.so %EXTRA_ROM%=%ROM%</command>
+        <command label="Dolphin (Standalone)">%EMULATOR_DOLPHIN% %ACTION%=android.intent.action.MAIN %CATEGORY%=android.intent.category.LEANBACK_LAUNCHER %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <command label="Dolphin MMJR (Standalone)">%EMULATOR_DOLPHIN-MMJR% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <command label="Dolphin MMJR2 (Standalone)">%EMULATOR_DOLPHIN-MMJR2% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <command label="Dolphin Enhanced (Standalone)">%EMULATOR_DOLPHIN-ENHANCED% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <command label="Dolphin Primehack (Standalone)">%EMULATOR_DOLPHIN-PRIMEHACK% %ACTION%=android.intent.action.VIEW %EXTRA_AutoStartFile%=%ROMSAF%</command>
+        <platform>wii</platform>
+        <theme>wiih</theme>
+    </system>
+    <system>
         <name>wiiu</name>
         <fullname>Nintendo Wii U</fullname>
         <path>%ROMPATH%/wiiu</path>
@@ -329,12 +445,13 @@
         <path>%ROMPATH%/windows</path>
         <extension>.desktop .steam</extension>
         <command label="Winlator Cmod (Standalone)">%EMULATOR_WINLATOR-CMOD% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="Winlator-Ludashi (Standalone)">%EMULATOR_WINLATOR-LUDASHI% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="Winlator Cmod Glibc (Standalone)">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+        <command label="Winlator-Ludashi (Standalone)">%EMULATOR_WINLATOR-LUDASHI% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+        <command label="Winlator Cmod Glibc (Standalone)">%EMULATOR_WINLATOR-GLIBC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
         <command label="Winlator Cmod PRoot (Standalone)">%EMULATOR_WINLATOR-PROOT% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
-		<command label="GameNative (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
-		<command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM%</command>
-		<command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
+        <command label="Winlator Cmod Bionic (Standalone)">%EMULATOR_WINLATOR-BIONIC% %ACTIVITY_CLEAR_TASK% %ACTIVITY_CLEAR_TOP% %EXTRA_shortcut_path%=%ROM%</command>
+        <command label="GameNative (Standalone)">%EMULATOR_GAMENATIVE% %ACTION%=app.gamenative.LAUNCH_GAME %EXTRAINTEGER_app_id%=%INJECT%=%ROM%</command>
+        <command label="GameHub Lite (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_steamAppId%=%INJECT%=%ROM%</command>
+        <command label="GameHub Lite Local (Standalone)">%EMULATOR_GAMEHUB-LITE% %ACTION%=gamehub.lite.LAUNCH_GAME %EXTRABOOL_autoStartGame%=true %EXTRA_localGameId%=%INJECT%=%ROM%</command>
         <platform>pcwindows</platform>
         <theme>windows</theme>
     </system>
