@@ -8,23 +8,23 @@
 		</rule>
 	</emulator>
 	<emulator name="AZAHARPLUS">
-        <!-- Nintendo 3DS emulator AzaharPlus-coexist -->
-        <rule type="androidpackage">
-            <entry>io.github.azaharplus.android/org.citra.citra_emu.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
+		<!-- Nintendo 3DS emulator AzaharPlus-coexist -->
+		<rule type="androidpackage">
+			<entry>io.github.azaharplus.android/org.citra.citra_emu.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="BORKED3DS">
-        <!-- Nintendo 3DS emulator Borked3DS -->
-        <rule type="androidpackage">
-            <entry>io.github.borked3ds.android/.activities.EmulationActivity</entry>
-        </rule>
-    </emulator>
+		<!-- Nintendo 3DS emulator Borked3DS -->
+		<rule type="androidpackage">
+			<entry>io.github.borked3ds.android/.activities.EmulationActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="CITRA-ENHANCED">
 		<!-- Nintendo 3DS emulator Citra Enhanced -->
 		<rule type="androidpackage">
 			<entry>org.gamerytb.citra.canary/org.citra.citra_emu.ui.main.MainActivity</entry>
 		</rule>
-	</emulator>	
+	</emulator>
 	<emulator name="CITRON">
 		<!-- Nintendo Switch emulator Citron -->
 		<rule type="androidpackage">
@@ -41,11 +41,11 @@
 		</rule>
 	</emulator>
 	<emulator name="DOLPHIN-ENHANCED">
-        <!-- Nintendo GameCube and Wii emulator Dolphin Enhanced -->
-        <rule type="androidpackage">
-            <entry>org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
-        </rule>
-    </emulator>
+		<!-- Nintendo GameCube and Wii emulator Dolphin Enhanced -->
+		<rule type="androidpackage">
+			<entry>org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="DOLPHIN-PRIMEHACK">
 		<!-- Nintendo GameCube and Wii emulator Dolphin -->
 		<rule type="androidpackage">
@@ -54,7 +54,7 @@
 	</emulator>
 	<emulator name="EDEN">
 		<!-- Nintendo Switch emulator Eden -->
-		<rule type="androidpackage">			
+		<rule type="androidpackage">
 			<entry>dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 			<entry>com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
 			<entry>com.antutu.ABenchMark/org.yuzu.yuzu_emu.activities.EmulationActivity</entry>
@@ -67,10 +67,10 @@
 		</rule>
 	</emulator>
 	<emulator name="RPCSX">
-        <!-- Sony PlayStation 3 emulator RPCSX -->
-        <rule type="androidpackage">
-            <entry>net.rpcsx/.MainActivity</entry>
-        </rule>
+		<!-- Sony PlayStation 3 emulator RPCSX -->
+		<rule type="androidpackage">
+			<entry>net.rpcsx/.MainActivity</entry>
+		</rule>
 	</emulator>
 	<emulator name="SUDACHI">
 		<!-- Nintendo Switch emulator Sudachi -->
@@ -105,17 +105,23 @@
 		</rule>
 	</emulator>
 	<emulator name="VITA3KZX">
-        <!-- Sony PlayStation Vita emulator Vita3K ZX -->
-        <rule type="androidpackage">
-            <entry>org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator</entry>
-        </rule>
-    </emulator>
+		<!-- Sony PlayStation Vita emulator Vita3K ZX -->
+		<rule type="androidpackage">
+			<entry>org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator</entry>
+		</rule>
+	</emulator>
+	<emulator name="WINLATOR-BIONIC">
+		<!-- Microsoft Windows emulator Winlator Cmod Bionic -->
+		<rule type="androidpackage">
+			<entry>com.winlator.cmod/com.winlator.cmod.XServerDisplayActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="WINLATOR-CMOD">
-        <!-- Microsoft Windows emulator Winlator Cmod -->
-        <rule type="androidpackage">
-            <entry>com.winlator.cmod/.XServerDisplayActivity</entry>
-        </rule>
-    </emulator>
+		<!-- Microsoft Windows emulator Winlator Cmod -->
+		<rule type="androidpackage">
+			<entry>com.winlator.cmod/.XServerDisplayActivity</entry>
+		</rule>
+	</emulator>
 	<emulator name="YUZU">
 		<!-- Nintendo Switch emulator Yuzu -->
 		<rule type="androidpackage">
