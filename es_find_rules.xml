@@ -171,6 +171,12 @@
             <entry>org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator</entry>
         </rule>
     </emulator>
+	<emulator name="WINLATOR-BIONIC">
+		<!-- Microsoft Windows emulator Winlator Cmod Bionic -->
+		<rule type="androidpackage">
+			<entry>com.winlator.cmod/com.winlator.cmod.XServerDisplayActivity</entry>
+		</rule>
+	</emulator>
     <emulator name="WINLATOR-CMOD">
         <!-- Microsoft Windows emulator Winlator Cmod -->
         <rule type="androidpackage">

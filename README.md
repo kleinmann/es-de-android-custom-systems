@@ -4,10 +4,19 @@ Those 2 XMLs will add in the following systems
 - Gameboy Hacks (`gbh`)
 - Gameboy Color Hacks (`gbch`)
 - Gameboy Advance Hacks (`gbah`)
+- GameCube Hacks (`gch`)
 - Genesis Hacks (`genh`)
 - NES Hacks (`nesh`)
+- Nintendo 3DS Hacks (`n3dsh`)
+- Nintendo 64 Hacks (`n64h`)
+- Nintendo DS Hacks (`ndsh`)
+- PlayStation Hacks (`psxh`)
+- PlayStation 2 Hacks (`ps2h`)
+- PlayStation Portable Hacks (`psph`)
 - SNES Hacks (`snesh`)
 - Switch (`switch`)
+- Wii Hacks (`wiih`)
+- Winlator (`windows`)
 
 They are to be placed in `ES-DE/custom_systems` (Download them and copy/paste them into that directory, make sure you don't have them end as `.txt`, they _have_ to be `.xml`).
 After adding the custom system files make sure to fully close ES-DE and restart it for the custom system files to load (not just rescan roms).
